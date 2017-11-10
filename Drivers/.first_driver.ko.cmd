@@ -1,0 +1,1 @@
+cmd_/home/langomah/Drivers/first_driver.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-117-generic/scripts/module-common.lds --build-id  -o /home/langomah/Drivers/first_driver.ko /home/langomah/Drivers/first_driver.o /home/langomah/Drivers/first_driver.mod.o
