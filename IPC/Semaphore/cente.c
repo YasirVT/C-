@@ -52,7 +52,7 @@ main()
 		} 
 		printf("hi im here\n"); 
 		printf (" centre : The road from east to west is open.\n"); 
-		//sleep(1); 
+		sleep(1); 
 		clock--; 
 	}//end of while 
 

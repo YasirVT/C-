@@ -33,7 +33,7 @@ main()
 		} 
 		printf("NS________________%d\n",NS);	
 		printf ("car: The road from north to south is open.\n"); 
-//		sleep(1); 
+		sleep(1); 
 		printf ("car: Car %d passed.\n",car_num ++); //car passed. sig.sem_num =EW; 
 		sig.sem_num = EW;  // Give a signal for EW
 		printf("EW________________%d\n",EW);	
